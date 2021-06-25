@@ -1,0 +1,34 @@
+title: 게임 프로그래밍 연구소
+description: 게임 개발 연구에 낭만이 깃든 IOrez의 게임 프로그래밍 연구소 입니다!
+
+theme: null
+
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
+
+readme_index:
+  with_frontmatter: true
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+
+exclude:
+  - Makefile
+  - CNAME
+  - LICENSE
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
+
+remote_theme: rundocs/jekyll-rtd-theme
+url         : "https://IOrez.github.io"
