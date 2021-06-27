@@ -1,6 +1,7 @@
 # DirectX12 초기화(2)
 ---
 Direct3D의 초기화 과정의 두번째 단계로 생성된 창에 Direct3D 장치를 부착한다.
+
 ***prac_D3DApp.h***
 
 ```c++
