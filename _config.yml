@@ -50,14 +50,22 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: _img/myface.png
+about_profile_image: images/myface.png
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요! 게임으로 즐거움을 주고싶은 게임프로그래머 이종훈입니다.
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+
+  저는 주로 C/C++ 언어를 사용하여 컨텐츠 개발을 하고있으며, shell과 jenkins를 이용하여 빌드 업무를 겸업하고있습니다. 
+  C# 과 Unity3D 엔진에 관심이 많으며 자기개발로 Unity3D엔진을 공부하고 있습니다.
+
+
+  Tech Stack
+    - C/C++
+    - C#
+    - Unity3D
+    - Shell Script
+    - Steamworks SDK
+    - Jenkins
 
 content:
   - title: Projects # Title for the section
