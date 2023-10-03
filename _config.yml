@@ -12,11 +12,11 @@ email: kcl5363@naver.com
 # email_title: Email (Email title override)
 phone: 010-7547-5358
 # phone_title: Phone (Phone title override)
-website: IOrez.github.io
+website: https://jonghun-portfolio.notion.site/Portfolio-ffc1b052c87f4147ada350fd5e4891e0?pvs=4
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username: jekyllrb
@@ -73,32 +73,48 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        sub_title: 'Steamworks SDK R&D'
+        link: https://partner.steamgames.com/doc/sdk
+        link_text: Steamworks SDK
         quote: >
-          Short overview of the project (optional)
+          컴투스 ECO팀(R&D)에서 활동 (2021.10 ~ 2022.04)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          1. Steamworks SDK를 Unity 프로젝트에 적용하는 방법에 대해 자료 서치
+          2. Steamworks SDK를 사용하여 Steam 마켓에 인게임내 아이템을 등록하는 방법에 대해 자료 서치
+          3. Steam서비스를 할 프로젝트에 개발 환경 구축에 대해 자료 서치
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        sub_title: '서머너즈워 : 천공의 아레나'
+        link: https://www.summonerswar.com/ko/skyarena
+        link_text: SummonersWar SkyArena
+        quote: >
+          컴투스 '서머너즈워 : 천공의 아레나' 팀에서 활동 (2022.04 ~ 현재)
+        description: | # this will include new lines to allow paragraphs
+          1. 컨텐츠에 필요한 UI 구현
+          2. 쿠키런, 어쌔신 크리드 콜라보 진행시 UI 및 컨텐츠 구현
+          (쿠키런: 주마다 바뀌는 던전 입장 UI 로비 제작)
+          (어쌔신 크리드: 로그라이크식 패시브 스킬 구현 및 선택 UI 제작)
+          3. 던전 진행시 드롭되는 마나석 연출 제작
+          4. 스킬벨런스 수정 ( 스킬 계수 수정 및 스킬 효과 추가, 턴 획득 우선순위 변경)
+          5. 캐릭터 스킨 적용 ( 48차 형상변환 : 뇌제, 월드아레나 배틀엔젤)
+          6. 캐릭터 제작 (프랑켄 슈타인 1차-각성 리메이크, 신규 2차 각성)
+          7. 마을에 배치될 캐릭터 스킨 적용
+          
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Com2us
+        sub_title: 사원
+        caption: "2021.10 ~ 현재"
+        link: https://com2us.com/
         quote: >
-          Short description of the company (optional)
+          컴투스에서 근무중
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - Steamwork R&D 진행 (2021.10 ~ 2022.04)
+          - SummonersWar : SkyArena팀 클라이언트 컨텐츠 제작 (2022.04 ~ 현재)
+          - SummonersWar : SkyArena팀 클라이언트 개발-납품 빌드 제작 보조 (2023.02 ~ 현재)
   - title: Education
     layout: list
     content:
