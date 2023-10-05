@@ -16,31 +16,10 @@ website: https://jonghun-portfolio.notion.site/Portfolio-ffc1b052c87f4147ada350f
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+github_username:  IOrez
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -54,13 +33,13 @@ about_profile_image: images/myface.png
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요! 게임으로 즐거움을 주고싶은 게임프로그래머 이종훈입니다.
 
-
   저는 주로 C/C++ 언어를 사용하여 컨텐츠 개발을 하고있으며, shell과 jenkins를 이용하여 빌드 업무를 겸업하고있습니다. 
-  C++ 과 Unreal 엔진에 관심이 많으며 자기개발로 Unreal엔진을 공부하고 있습니다.
-
+  C#/C++ 과 Unity/Unreal 엔진에 관심이 많으며 자기개발로 라이브 서비스에 필요한 공부를 하고 있습니다.
 
   Tech Stack
     - C/C++
+    - C#
+    - Unity
     - Unreal
     - Shell Script
     - Steamworks SDK
@@ -91,13 +70,12 @@ content:
         quote: >
           컴투스 '서머너즈워 : 천공의 아레나' 팀에서 활동 (2022.04 ~ 현재)
         description: | # this will include new lines to allow paragraphs
-          1. 컨텐츠에 필요한 UI 구현 [link](https://jonghun-portfolio.notion.site/UI-f1e36f046a0149abb079b977943a129e)
-          2. 쿠키런, 어쌔신 크리드 콜라보 진행시 UI 및 컨텐츠 구현 [link](https://jonghun-portfolio.notion.site/UI-b13007702a80425aa41b711d5eda2a3c)
+          1. 컨텐츠에 필요한 UI 구현 및 다국어 대응[link](https://jonghun-portfolio.notion.site/UI-f1e36f046a0149abb079b977943a129e)
+          2. 쿠키런, 어쌔신 크리드 콜라보 진행시 UI 및 컨텐츠 구현 및 다국어 대응 [link](https://jonghun-portfolio.notion.site/7f164edac23148938e3f09fa6b3d22b8?pvs=4)
           3. 던전 진행시 드롭되는 마나석 연출 제작 [link](https://jonghun-portfolio.notion.site/9d1ff1b399284a40897edc8e86f62fab)
-          4. 스킬벨런스 수정 ( 스킬 계수 수정 및 스킬 효과 추가, 턴 획득 우선순위 변경)  [link](https://jonghun-portfolio.notion.site/989844612ff84c1d8e51cd405947c1e1)
-          5. 캐릭터 스킨 적용 ( 48차 형상변환 : 뇌제, 월드아레나 배틀엔젤) [link](https://jonghun-portfolio.notion.site/48-fd90e22e5df846cfa620ba71754d5fd1)
-          6. 캐릭터 제작 (프랑켄 슈타인 1차-각성 리메이크, 신규 2차 각성) [link](https://jonghun-portfolio.notion.site/1-2-1186720b18fa41f6a209791f9ed85ab8)
-          7. 마을에 배치될 캐릭터 스킨 적용 [link](https://jonghun-portfolio.notion.site/e60bbb1aac4f42619ec6509bcd80dc3d)
+          4. 캐릭터 스킨 적용 ( 48차 형상변환 : 뇌제, 월드아레나 배틀엔젤) [link](https://jonghun-portfolio.notion.site/48-fd90e22e5df846cfa620ba71754d5fd1?pvs=4)
+          5. 캐릭터 제작 (신규 2차 각성) [link](https://jonghun-portfolio.notion.site/1-2-1186720b18fa41f6a209791f9ed85ab8)
+          6. 마을에 배치될 캐릭터 스킨 적용 [link](https://jonghun-portfolio.notion.site/e60bbb1aac4f42619ec6509bcd80dc3d)
           
   - title: Experience
     layout: list
@@ -112,7 +90,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Steamwork R&D 진행 (2021.10 ~ 2022.04)
           - SummonersWar : SkyArena팀 클라이언트 컨텐츠 제작 (2022.04 ~ 현재)
-          - SummonersWar : SkyArena팀 클라이언트 개발-납품 빌드 제작 서브 (2023.02 ~ 현재)
+          - SummonersWar : SkyArena팀 클라이언트 개발-납품 빌드 제작 서브 (2023.02 ~ 현재) 
   - title: Education
     layout: list
     content:
@@ -129,9 +107,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      안녕하세요 저는 대학생때부터 게임개발에 꿈을 가지고 현재 게임프로그래머를 직업으로 가지는 평범한 직장인입니다.
+      게임개발자가 되고싶었던 가장 큰 이유는 제가 가장 힘들었던 시기에 무작정 입문한 게임개발이 정말로 힘이되었고 유저는 제 지인들 뿐이었고 잠깐이었지만 함께 처음만든 게임을 하였을 때의 보람이었습니다.
+      저는 게임으로 즐거움, 추억, 삶의 원동력을 주고 싶습니다. 비록 이제 한발짝을 때었지만 지금보다 더 성장하여 제가 생각하는 바람을 꼭 이루겠습니다!
+            
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
